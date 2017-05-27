@@ -1,0 +1,409 @@
+{
+	"features": [{
+		"geometry": {
+			"coordinates": [-37.2726631195437,
+			-9.91254751352393],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "12",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 3.0
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2726722686872,
+			-9.91252509027536],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "11",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 4.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2728323786973,
+			-9.91246230517936],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "9",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 1.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2725807772528,
+			-9.91246678982908],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "8",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 1.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.272804931267,
+			-9.91244885123022],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "7",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 3.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2726127992548,
+			-9.91243988193079],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "6",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 4.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2726448212568,
+			-9.91235467358622],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "5",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 1.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2726951415458,
+			-9.91242194333193],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "4",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 5.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2727546109781,
+			-9.91233225033765],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "3",
+			"serial_number": "29213220",
+			"name": "POINT-10",
+			"length": 4.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2803438254597,
+			-9.92583104597751],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "29",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 16.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2803392508879,
+			-9.92584001527694],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "28",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 17.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2803849966051,
+			-9.92578171483065],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "27",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 17.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2803072288859,
+			-9.92578171483065],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "26",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 16.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2804398914658,
+			-9.92578171483065],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "25",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 17.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2802843560273,
+			-9.92575032228265],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "23",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 15.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2802706323122,
+			-9.92569650648608],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "21",
+			"serial_number": "29477895",
+			"name": "POINT-20",
+			"length": 14.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2752431779931,
+			-9.91387945448906],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "14",
+			"serial_number": "29517482",
+			"name": "POINT-10",
+			"length": 3.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2753529677144,
+			-9.91393327028563],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "17",
+			"serial_number": "29519796",
+			"name": "POINT-10",
+			"length": 7.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2753529677144,
+			-9.91390187773763],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "16",
+			"serial_number": "29519796",
+			"name": "POINT-10",
+			"length": 6.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2753117965689,
+			-9.91389739308792],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "15",
+			"serial_number": "29519796",
+			"name": "POINT-10",
+			"length": 5.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2753255202841,
+			-9.91388842378849],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "13",
+			"serial_number": "29519796",
+			"name": "POINT-10",
+			"length": 4.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2731343004308,
+			-9.9125699367725],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "10",
+			"serial_number": "29519798",
+			"name": "POINT-10",
+			"length": 1.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2875533504886,
+			-9.91158779848509],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "2",
+			"serial_number": "29332389",
+			"name": "POINT-30",
+			"length": 1.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2800647765848,
+			-9.92574583763294],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "24",
+			"serial_number": "29373396",
+			"name": "POINT-40",
+			"length": 14.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2800510528697,
+			-9.9257009911358],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "22",
+			"serial_number": "29373396",
+			"name": "POINT-40",
+			"length": 13.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2851242529058,
+			-9.91149362084109],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "1",
+			"serial_number": "29517441",
+			"name": "POINT-30",
+			"length": 12.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2842871062813,
+			-9.91459699844334],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "18",
+			"serial_number": "29440489",
+			"name": "POINT-30",
+			"length": 6.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2770043881049,
+			-9.92547675865009],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "20",
+			"serial_number": "29263516",
+			"name": "POINT-40",
+			"length": 3.0,
+		},
+		"type": "Feature"
+	},
+	{
+		"geometry": {
+			"coordinates": [-37.2771233269696,
+			-9.92552608979694],
+			"type": "Point"
+		},
+		"properties": {
+			"identifier": "19",
+			"serial_number": "29263516",
+			"name": "POINT-40",
+			"length": 2.0,
+		},
+		"type": "Feature"
+	}],
+	"type": "FeatureCollection"
+}
