@@ -1,2 +1,2 @@
 # adadevfiles
-files for adadev site
+Files for Adadev site https://adadevelopment.github.io
