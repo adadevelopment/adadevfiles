@@ -109,9 +109,9 @@ namespace Adadev.GdalModule {
             return newValue;
         }
 		
-	 /**
-       * Retorna a banda para determinada cor (red, green, blue ou alfa)
-       * O dataset deve ter 4 bandas
+     /**
+       * Returns the band for an color (red, green, blue or alpha)
+       * The dataset should have 4 bands
        * */
         public static Band GetBand(Dataset ImageDataSet, ColorInterp colorInterp) {
             if(colorInterp.Equals(ImageDataSet.GetRasterBand(1).GetRasterColorInterpretation())) {
