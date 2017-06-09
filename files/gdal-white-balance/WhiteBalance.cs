@@ -16,14 +16,13 @@ namespace Adadev.GdalModule {
             GdalConfiguration.ConfigureGdal();
         }
 
-        public void AplyWhiteBalance(string imagePath, string outImagePath, double percentForWhiteBalance) {
-            percentForBalance = percentForWhiteBalance;
+        public void AplyWhiteBalance(string imagePath, string outImagePath) {
 
             using(Dataset image = Gdal.Open(imagePath, Access.GA_ReadOnly)) {
 
-                Band redBand = GdalUtilities.GetBand(image, ColorInterp.GCI_RedBand);
-                Band greenBand = GdalUtilities.GetBand(image, ColorInterp.GCI_GreenBand);
-                Band blueBand = GdalUtilities.GetBand(image, ColorInterp.GCI_BlueBand);
+                Band redBand = GetBand(image, ColorInterp.GCI_RedBand);
+                Band greenBand = GetBand(image, ColorInterp.GCI_GreenBand);
+                Band blueBand = GetBand(image, ColorInterp.GCI_BlueBand);
 
                 if(redBand == null || greenBand == null || blueBand == null) {
                     throw new NullReferenceException("One or more bands are not available.");
@@ -39,9 +38,9 @@ namespace Adadev.GdalModule {
                     outImage.SetGeoTransform(geoTransformerData);
                     outImage.SetProjection(image.GetProjection());
 
-                    Band outRedBand = GdalUtilities.GetBand(outImage, ColorInterp.GCI_RedBand);
-                    Band outGreenBand = GdalUtilities.GetBand(outImage, ColorInterp.GCI_GreenBand);
-                    Band outBlueBand = GdalUtilities.GetBand(outImage, ColorInterp.GCI_BlueBand);
+                    Band outRedBand = outImage.GetRasterBand(1);
+                    Band outGreenBand = outImage.GetRasterBand(2);
+                    Band outBlueBand = outImage.GetRasterBand(3);
 
                     int[] red = new int[width * height];
                     int[] green = new int[width * height];
@@ -108,6 +107,22 @@ namespace Adadev.GdalModule {
             }
  
             return newValue;
+        }
+		
+	 /**
+       * Retorna a banda para determinada cor (red, green, blue ou alfa)
+       * O dataset deve ter 4 bandas
+       * */
+        public static Band GetBand(Dataset ImageDataSet, ColorInterp colorInterp) {
+            if(colorInterp.Equals(ImageDataSet.GetRasterBand(1).GetRasterColorInterpretation())) {
+                return ImageDataSet.GetRasterBand(1);
+            } else if(colorInterp.Equals(ImageDataSet.GetRasterBand(2).GetRasterColorInterpretation())) {
+                return ImageDataSet.GetRasterBand(2);
+            } else if(colorInterp.Equals(ImageDataSet.GetRasterBand(3).GetRasterColorInterpretation())) {
+                return ImageDataSet.GetRasterBand(3);
+            } else {
+                return ImageDataSet.GetRasterBand(4);
+            }
         }
 		
     }
