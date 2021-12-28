@@ -93,7 +93,8 @@ namespace Adadev.GdalModule {
             geometry.ExportToWkt(out wktgeometry);
             Geometry newGeometry = Geometry.CreateFromWkt(wktgeometry);
             newGeometry.AssignSpatialReference(reference);
-            newGeometry.SetPoint(0, geometry.GetX(0), geometry.GetY(0), 0);
+	    // uncomment this line in case of Point feature
+            // newGeometry.SetPoint(0, geometry.GetX(0), geometry.GetY(0), 0);
 
             feature.SetGeometry(newGeometry);
             layer.CreateFeature(feature);
